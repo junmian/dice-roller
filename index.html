@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ICO">
+    <link rel="stylesheet" href="css/styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dice Roller</h1>
+        <h2 class="animate__animated animate__fadeInUp">Rolling...</h2>
+          <button class="reload-btn" onClick="window.location.reload();">Roll Dice</button>
+          <div class="dice">
+            <p class="player1">Player 1</p>
+            <img class="img1 animate__animated animate__swing" src="images/roll.png" alt="Die 1">
+          </div>
+          <div class="dice">
+            <p class="player2">Player 2</p>
+            <img class="img2 animate__animated animate__swing" src="images/roll.png" alt="Die 2">
+          </div>
+    </div><!-- END .container -->
+    <footer id="footer">
+      <p><small>&copy;<span id="current-year"></span>&nbsp;Dice Roller</small></p>
+    </footer>
+    <script src="src/footer.js"></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>

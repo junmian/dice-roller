@@ -1,0 +1,155 @@
+:root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: white;
+  background-image: linear-gradient(to left bottom, #454b55, #434b56, #404a57, #3d4a58, #3a4a59);
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-bottom: 3rem; 
+  text-shadow: 4px 4px 15px #cacaca;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.reload-btn {
+  display: block;
+  font-size: 1.5rem;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reload-btn:hover {
+  text-shadow: 2px 2px 4px grey;
+  transition: 0.25s;
+}
+
+.reload-btn:active {
+  position: relative;
+  top: 2px;
+  box-shadow: 4px 4px 4px rgb(180, 180, 180);
+}
+
+p {
+  font-size: 2rem;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+img {
+  width: 75%;
+}
+
+.player1 {
+  color: yellow;
+}
+
+.player2 {
+  color: #1DF515;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 8rem;
+  font-size: 1.5rem;
+}
+
+/* ----- Media Queries ----- */
+@media only screen and (max-width: 1025px) and (min-width: 770px) {
+  h1, h2, .reload-btn {
+    margin-bottom: 2rem; 
+  }
+  p {
+    font-size: 2rem;
+  }
+  img {
+    width: 70%;
+  }
+  footer p {
+    margin-top: 11.8rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 769px) and (min-width: 480px) {
+  h1 {
+    font-size: 5rem;
+    margin-bottom: 1.5rem; 
+  }
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .reload-btn {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .dice {
+    width: 45%;
+  }
+  img {
+    width: 65%;
+  }
+  footer p {
+    margin-top: 9rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 479px) and (min-width: 250px) {
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem; 
+  }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .reload-btn {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.6rem;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+  .dice {
+    width: 40%;
+  }
+  img {
+    width: 50%;
+  }
+  footer p {
+    margin-top: 4rem;
+    font-size: 1rem;
+  }
+}
