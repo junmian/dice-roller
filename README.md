@@ -15,4 +15,4 @@ Computers are deterministic machines, so it is physically impossible for compute
 - GitLab
 
 ## App Screenshot
-<img src="https://github.com/junmian/app-image/blob/main/app-image.png" width="720" height="419" alt="Dice Roller Screenshot" title="Dice Roller">
+<img src="https://github.com/junmian/dice-roller/blob/main/app-image.png" width="720" height="419" alt="Dice Roller Screenshot" title="Dice Roller">
